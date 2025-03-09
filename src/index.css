@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+
+/* Customize the scrollbar for the #tags div */
+#tags::-webkit-scrollbar {
+  width: 8px; 
+}
+
+#tags::-webkit-scrollbar-track {
+  background: #1a2b3c; 
+  border-radius: 10px;
+}
+
+#tags::-webkit-scrollbar-thumb {
+  background: #4c5c6f; 
+  border-radius: 10px;
+  border: 2px solid #1a2b3c; 
+}
+
+#tags::-webkit-scrollbar-thumb:hover {
+  background: #6a7a8d; 
+}
+
+/* Customize the scrollbar for the #questions div */
+#questions::-webkit-scrollbar {
+  width: 15px; 
+}
+
+#questions::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+#questions::-webkit-scrollbar-thumb {
+  background: #4c5c6f; 
+}
+
+#questions::-webkit-scrollbar-thumb:hover {
+  background: #6a7a8d; 
+}
