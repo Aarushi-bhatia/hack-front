@@ -9,7 +9,6 @@ const HomePage = () => {
   return (
     <>
     <Hero />
-    <WorldMap />
     <About />
     <Pricing />
     <Footer />
